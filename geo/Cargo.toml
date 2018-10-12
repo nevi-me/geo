@@ -16,7 +16,7 @@ travis-ci = { repository = "georust/geo" }
 [dependencies]
 num-traits = "0.2"
 serde = { version = "1.0", optional = true, features = ["derive"] }
-spade = "1.5.1"
+spade = { git = "https://github.com/Stoeoef/spade" }
 failure = "0.1.2"
 postgis = { version = "0.6", optional = true }
 proj = { version = "0.5", optional = true }
