@@ -20,7 +20,7 @@ spade = { git = "https://github.com/Stoeoef/spade", rev = "af782ef3ab01e91854b65
 failure = "0.1.2"
 postgis = { version = "0.6", optional = true }
 proj = { version = "0.5", optional = true }
-geo-types = { version = "0.2", features = ["spade"] }
+geo-types = { git = "https://github.com/nevi-me/geo", rev = "d70508d", features = ["spade"] }
 
 [features]
 default = []
