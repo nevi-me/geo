@@ -12,4 +12,4 @@ description = "Geospatial primitive data types"
 [dependencies]
 num-traits = "0.2"
 serde = { version = "1", optional = true, features = ["derive"] }
-spade = { version = "1.5.1", optional = true }
+spade = { git = "https://github.com/Stoeoef/spade", rev = "af782ef3ab01e91854b65d0df7d39739a78f3e2d", optional = true }
